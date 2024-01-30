@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Test from './test.js';
+import Welcome from './sections/welcome.js';
 // import SplineExample from './spline.js';
 
 
@@ -9,7 +10,7 @@ function App() {
     <main className='App'>
        {/* <SplineExample/> */}
       <div style={{marginTop: "15vh"}}>
-        <h1>WELCOME</h1>
+        <Welcome/>
         <div id="test-section-1" style={{height: "50vh", backgroundColor: "pink", border: "2px solid purple", padding: 20}}>
           <h2 style={{border: "2px solid blue", marginTop: 0}}>Test Section 1</h2>
         </div>
