@@ -1,0 +1,15 @@
+.NavStyle {
+    background-color: blue;
+}
+
+.AltNavStyle {
+    background-color: yellow;
+}
+
+.LinkClickStyle {
+    background-color: red;
+}
+
+.LinkStyle {
+    background-color: grey;
+}

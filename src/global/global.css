@@ -1,0 +1,71 @@
+.SectionStyles {
+    height: 100vh; 
+    /* border: 1px solid purple; */
+    padding: 100px 60px 20px 60px;
+    background-color: #F4E7E7;
+  /* margin-top: 80px; */
+}
+
+h1{
+  color: #97534e;
+  /* border: 1px solid red; */
+}
+
+.SectionTitle {
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #97534e;
+}
+
+.SectionGrid {
+  margin-top: 24px;
+  display: grid; 
+  grid-template-columns: auto auto auto;
+  gap: 50px; 
+  /* border: 1px solid red; */
+  height: 80vh;
+}
+
+.AltSectionGrid {
+  margin-top: 24px;
+  display: grid; 
+  grid-template-columns: auto auto;
+  gap: 50px; 
+  /* border: 1px solid red; */
+  height: 80vh;
+}
+
+.SectionColumnGridAlt {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  border: 2px solid #97534e;
+  padding: 20px;
+}
+
+.SectionColumnGridOne {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border: 2px solid #97534e;
+  padding: 20px;
+}
+
+.SectionColumnGridTwo {
+  /* grid-column-start: 3;
+  grid-column-end: 4; */
+  border: 2px solid #97534e;
+  padding: 20px;
+}
+
+.SectionColumnGridThree {
+  border: 2px solid #97534e;
+  padding: 20px;
+}
+
+.SectionColumnGridFour {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  border: 2px solid #97534e;
+  padding: 20px;
+}

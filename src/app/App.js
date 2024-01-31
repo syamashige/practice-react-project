@@ -1,20 +1,20 @@
 import './App.css';
-import Welcome from '../sections/welcome_section/welcome.js';
-// import SplineExample from './spline.js';
+import Welcome from '../sections/1_welcome_section/welcome.js';
+import About from '../sections/2_about_me_section/about.js';
+import Background from '../sections/3_background_section/background.js';
+import Projects from '../sections/4_projects_section/projects.js';
+import Contact from '../sections/5_contact_section/contact.js';
 
 
 function App() {
   return (
     <main className='App'>
-       {/* <SplineExample/> */}
-      <div style={{marginTop: "15vh"}}>
+      <div>
         <Welcome/>
-        <div id="test-section-1" style={{height: "50vh", backgroundColor: "pink", border: "2px solid purple", padding: 20}}>
-          <h2 style={{border: "2px solid blue", marginTop: 0}}>Test Section 1</h2>
-        </div>
-        <div id="test-section-2" style={{height: "50vh", backgroundColor:"pink", border: "2px solid purple", padding: 20}}>
-          <h2 style={{border: "2px solid blue", marginTop: 0}}>Test Section 2</h2>
-        </div>
+        <About/>
+        <Background/>
+        <Projects/>
+        <Contact/>
       </div>
     </main>
   );

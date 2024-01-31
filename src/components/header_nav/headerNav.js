@@ -2,11 +2,13 @@ import './headerNav.css'
 
 function HeaderNav () {
     return (
-        <nav>
-            <ul>
-                <li className='listItem'><a href='#test-section-1'>Test1</a></li>
-                <li className='listItem'><a href='#test'>Hello World</a></li>
-                <li className='listItem'><a href='#test-section-2'>Test2</a></li>
+        <nav className='NavStyle'>
+            <ul className='ListStyle'>
+                <li><a className='ListItemStyle' href='#welcome'>Welcome</a></li>
+                <li><a className='ListItemStyle' href='#about-me'>About Me</a></li>
+                <li><a className='ListItemStyle' href='#background'>Background</a></li>
+                <li><a className='ListItemStyle' href='#projects'>Projects</a></li>
+                <li><a className='ListItemStyle' href='#contact-me'>Contact Me</a></li>
             </ul>
         </nav>
     )
