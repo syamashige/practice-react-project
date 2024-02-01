@@ -39,6 +39,8 @@
 }
 
 .ListItemStyle:active {
+    outline: 3px solid  #97534e;
+    outline-offset: -3px;
     background-color: #F4E7E7;
     color: #97534e;
 }

@@ -1,5 +1,5 @@
 import '../../global/global.css';
-import SplineMiniRoomExample from '../../components/spline_scenes/spline_mini_room_example.js';
+// import SplineMiniRoomExample from '../../components/spline_scenes/spline_mini_room_example.js';
 
 export default function Welcome () {
     return (
@@ -7,11 +7,9 @@ export default function Welcome () {
             <span className='SectionTitle'>Welcome</span>
             <div className='AltSectionGrid'>
                 <div className='SectionColumnGridAlt'>
-                    {/* <h1>Welcome</h1> */}
-                    {/* <span>Placeholder</span> */}
+                    <h1>Welcome</h1>
                 </div>
                 <div className='SectionColumnGridTwo'>
-                    {/* <span>Placeholder</span> */}
                 </div>
             </div>
         </div>

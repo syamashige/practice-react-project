@@ -1,14 +1,44 @@
 .SectionStyles {
     height: 100vh; 
-    /* border: 1px solid purple; */
     padding: 100px 60px 20px 60px;
     background-color: #F4E7E7;
-  /* margin-top: 80px; */
 }
 
-h1{
-  color: #97534e;
-  /* border: 1px solid red; */
+h1, h2, h3{
+  color: #62120c;
+  margin-top: 0;
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h2{
+  font-size: 65px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+body {
+  color: #62120c;
+}
+
+a.email {
+  color: #62120c;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.GroupedInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 40px;
+  max-width: 400px;
 }
 
 .SectionTitle {
@@ -24,7 +54,6 @@ h1{
   display: grid; 
   grid-template-columns: auto auto auto;
   gap: 50px; 
-  /* border: 1px solid red; */
   height: 80vh;
 }
 
@@ -33,7 +62,6 @@ h1{
   display: grid; 
   grid-template-columns: auto auto;
   gap: 50px; 
-  /* border: 1px solid red; */
   height: 80vh;
 }
 
@@ -41,21 +69,19 @@ h1{
   grid-column-start: 1;
   grid-column-end: 2;
   border: 2px solid #97534e;
-  padding: 20px;
+  padding: 40px;
 }
 
 .SectionColumnGridOne {
   grid-column-start: 1;
   grid-column-end: 3;
   border: 2px solid #97534e;
-  padding: 20px;
+  padding: 40px;
 }
 
 .SectionColumnGridTwo {
-  /* grid-column-start: 3;
-  grid-column-end: 4; */
   border: 2px solid #97534e;
-  padding: 20px;
+  padding: 40px;
 }
 
 .SectionColumnGridThree {
@@ -67,5 +93,5 @@ h1{
   grid-column-start: 2;
   grid-column-end: 4;
   border: 2px solid #97534e;
-  padding: 20px;
+  padding: 40px;
 }
