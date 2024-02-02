@@ -7,7 +7,7 @@
 h1, h2, h3{
   color: #62120c;
   margin-top: 0;
-  max-width: 400px;
+  margin-bottom: 20px;
 }
 
 h1 {
@@ -26,18 +26,11 @@ body {
   color: #62120c;
 }
 
-a.email {
-  color: #62120c;
-  text-transform: none;
-  font-weight: 500;
-  font-size: 20px;
-}
-
 .GroupedInfo {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 60px;
   max-width: 400px;
 }
 
@@ -53,7 +46,7 @@ a.email {
   margin-top: 24px;
   display: grid; 
   grid-template-columns: auto auto auto;
-  gap: 50px; 
+  gap: 40px; 
   height: 80vh;
 }
 

@@ -33,16 +33,20 @@
     border-radius: 6px;
 }
 
-.ListItemStyle:hover, .ListItemStyle:focus {
+.ListItemStyle:active {
     background-color: #97534e;
     color: #F4E7E7;
 }
 
-.ListItemStyle:active {
+.ListItemStyle:hover, .ListItemStyle:focus {
     outline: 3px solid  #97534e;
     outline-offset: -3px;
     background-color: #F4E7E7;
     color: #97534e;
+}
+.ListItemStyle:active {
+    background-color: #97534e;
+    color: #F4E7E7;
 }
 
 a {
