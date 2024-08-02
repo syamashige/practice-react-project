@@ -88,3 +88,34 @@ body {
   border: 2px solid #425154;
   padding: 40px;
 }
+
+@media (max-width: 1000px) {
+
+  .SectionColumnGridOne {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 2px solid #425154;
+    padding: 40px;
+  }
+  
+  .SectionColumnGridTwo {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 2px solid #425154;
+    padding: 40px;
+  }
+  
+  .SectionColumnGridThree {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 2px solid #425154;
+    padding: 20px;
+  }
+  
+  .SectionColumnGridFour {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border: 2px solid #425154;
+    padding: 40px;
+  }
+}

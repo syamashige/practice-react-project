@@ -35,7 +35,7 @@
 }
 
 .ListItemStyle:hover, .ListItemStyle:focus {
-    outline: 3px solid  #425154;
+    /* outline: 1px solid  #425154; */
     outline-offset: -3px;
     background-color: #efe7f8;
     color: #425154;
