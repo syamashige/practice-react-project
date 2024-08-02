@@ -23,7 +23,7 @@ export default function Contact () {
                     </div>
                 </div>
                 <div className='ContactImageContainer'>
-                    <SplineMiniRoomExample/>
+                    {/* <SplineMiniRoomExample/> */}
                 </div>
             </div>
         </div>
